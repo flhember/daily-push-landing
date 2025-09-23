@@ -24,15 +24,15 @@ export default function SupportPage() {
         </p>
 
       {/* Email Card */}
-      <div className="max-w-md mx-auto p-6 rounded-xl border dark:border-gray-700 bg-white dark:bg-gray-800 shadow hover:shadow-lg transition text-center">
-        <div className="text-indigo-600 dark:text-indigo-400 text-5xl mb-4">📧</div>
-        <h3 className="font-semibold text-2xl mb-2 text-gray-900 dark:text-white">
+      <div className="max-w-md mx-auto p-6 rounded-xl border shadow hover:shadow-lg transition text-center">
+        <div className="text-indigo-600 text-5xl mb-4">📧</div>
+        <h3 className="font-semibold text-2xl mb-2">
           {t('email', 'Email')}
         </h3>
         <p className="text-sm opacity-75">
           <a
             href="mailto:contact.dailypushproton.me@proton.me"
-            className="underline hover:text-indigo-600 dark:hover:text-indigo-400 text-gray-800 dark:text-gray-200"
+            className="underline hover:text-indigo-600 "
           >
             contact.dailypushproton.me@proton.me
           </a>

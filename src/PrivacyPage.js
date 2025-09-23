@@ -46,11 +46,11 @@ export default function PrivacyPage() {
                 <span className="text-lg">📧</span>
                 <span className="text-sm font-medium">{t('contact', 'Contact')}</span>
               </button>
-              <p className="text-xs text-gray-500 dark:text-gray-400/80"> {t('privacyPage.intro1')} </p>
+              <p className="text-xs text-gray-500 "> {t('privacyPage.intro1')} </p>
             </div>
           </div>
 
-          <p className="mt-6 text-base leading-relaxed text-gray-700 dark:text-gray-300">
+          <p className="mt-6 text-base leading-relaxed ">
             {t('privacyPage.intro2')}
           </p>
         </div>
@@ -60,38 +60,38 @@ export default function PrivacyPage() {
           {/* Content column */}
           <div>
             {/* Collected */}
-            <section id="collected" className="mb-8 p-6 rounded-2xl border dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm">
+            <section id="collected" className="mb-8 p-6 rounded-2xl border shadow-sm">
               <h2 className="text-xl font-semibold mb-3">{t('privacyPage.collectedTitle')}</h2>
-              <p className="mb-3 text-gray-700 dark:text-gray-300">{t('privacyPage.collectedIntro')}</p>
-              <p className="whitespace-pre-line text-sm text-gray-600 dark:text-gray-300/90">
+              <p className="mb-3">{t('privacyPage.collectedIntro')}</p>
+              <p className="whitespace-pre-line text-sm ">
                 {t('privacyPage.collectedList')}
               </p>
             </section>
 
             {/* Usage */}
-            <section id="usage" className="mb-8 p-6 rounded-2xl border dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm">
+            <section id="usage" className="mb-8 p-6 rounded-2xl border shadow-sm">
               <h2 className="text-xl font-semibold mb-3">{t('privacyPage.usageTitle')}</h2>
-              <p className="text-sm text-gray-700 dark:text-gray-300">{t('privacyPage.usageText')}</p>
+              <p className="text-sm ">{t('privacyPage.usageText')}</p>
             </section>
 
             {/* Sharing */}
-            <section id="sharing" className="mb-8 p-6 rounded-2xl border dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm">
+            <section id="sharing" className="mb-8 p-6 rounded-2xl border shadow-sm">
               <h2 className="text-xl font-semibold mb-3">{t('privacyPage.sharingTitle')}</h2>
-              <p className="text-sm text-gray-700 dark:text-gray-300">{t('privacyPage.sharingText')}</p>
+              <p className="text-sm ">{t('privacyPage.sharingText')}</p>
             </section>
 
             {/* Rights */}
-            <section id="rights" className="mb-8 p-6 rounded-2xl border dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm">
+            <section id="rights" className="mb-8 p-6 rounded-2xl border shadow-sm">
               <h2 className="text-xl font-semibold mb-3">{t('privacyPage.rightsTitle')}</h2>
-              <p className="text-sm text-gray-700 dark:text-gray-300">{t('privacyPage.rightsText')}</p>
+              <p className="text-sm ">{t('privacyPage.rightsText')}</p>
 
-              <div className="mt-4 text-sm text-gray-700 dark:text-gray-300">
+              <div className="mt-4 text-sm ">
                 <p>{t('privacyPage.requestDel')}</p>
                 <button
                   onClick={handleMail}
-                  className="mt-3 inline-block px-4 py-2 rounded-md bg-white dark:bg-gray-700 border dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-600"
+                  className="mt-3 inline-block px-4 py-2 rounded-md"
                 >
-                  <span className="underline text-indigo-600 dark:text-indigo-400">contact.dailypushproton.me@proton.me</span>
+                  <span className="hover:underline text-indigo-600">contact.dailypushproton.me@proton.me</span>
                 </button>
               </div>
             </section>
@@ -99,7 +99,7 @@ export default function PrivacyPage() {
 
           {/* TOC / aside */}
           <aside className="hidden md:block sticky top-32 self-start">
-            <div className="w-full p-4 rounded-lg border dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm">
+            <div className="w-full p-4 rounded-lg border shadow-sm">
               <h4 className="text-sm font-semibold mb-3">{t('privacyPage.intro3')}</h4>
               <nav className="flex flex-col gap-2 text-sm">
                 <button onClick={() => scrollTo('collected')} className="text-left text-indigo-600 hover:underline">• {t('privacyPage.collectedTitle')}</button>
@@ -114,7 +114,7 @@ export default function PrivacyPage() {
                 </button>
               </div>
 
-              <p className="mt-3 text-xs text-gray-500 dark:text-gray-400">{t('privacyPage.lastUpdated', { date: "23/07/2025" })}</p>
+              <p className="mt-3 text-xs">{t('privacyPage.lastUpdated', { date: "23/07/2025" })}</p>
             </div>
           </aside>
         </div>

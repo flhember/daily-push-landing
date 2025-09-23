@@ -35,14 +35,14 @@ export default function TermsPage() {
         <h1 className="text-3xl font-bold mb-6 text-center">{t('termsPage.title')}</h1>
 
         {sections.map((section, idx) => (
-          <div key={idx} className="p-6 rounded-xl border dark:border-gray-700 bg-white dark:bg-gray-800 shadow hover:shadow-lg transition">
+          <div key={idx} className="p-6 rounded-xl border shadow hover:shadow-lg transition">
             <h2 className="text-2xl font-semibold mb-2">{section.title}</h2>
             <p className="text-sm opacity-85">{section.text}</p>
           </div>
         ))}
       </main>
 
-      <footer className="mt-20 text-center text-sm opacity-60 py-6 border-t dark:border-gray-700">
+      <footer className="mt-20 text-center text-sm opacity-60 py-6 border-t">
         © {new Date().getFullYear()} Daily Push.
       </footer>
     </div>
