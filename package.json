@@ -44,9 +44,5 @@
   "engines": {
     "node": "22.x",
     "npm": "11.x"
-  },
-    "build": {
-    "env": {},
-    "command": "npm install --legacy-peer-deps && npm run build"
   }
 }
