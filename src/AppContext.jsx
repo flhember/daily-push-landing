@@ -1,6 +1,7 @@
 import { createContext, useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const AppContext = createContext();
 
 export function AppProvider({ children }) {
