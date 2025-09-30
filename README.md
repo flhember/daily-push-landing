@@ -1,16 +1,28 @@
-# React + Vite
+# Daily Push - Landing Page  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Daily Push** is an app that helps you **progress in push-ups step by step**.  
+Track your sessions easily and use dark mode for late-night workouts.  
 
-Currently, two official plugins are available:
+📱 Currently in **alpha testing** — coming soon to the app stores!  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository only contains the presentation website of the app.  
 
-## React Compiler
+👉 Check out the landing page here: [daily-push-landing.vercel.app](https://daily-push-landing.vercel.app/)  
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## About the app  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Daily Push** is a mobile application designed to:  
+- Follow a progressive push-up training program  
+- Build strength and endurance at your own pace  
+- Track your progress with a simple interface  
+- Train anytime, with dark mode for night sessions
+
+<p align="center">
+  <img src="./src/assets/eng/preview1.png" width="180"/>&nbsp;&nbsp;&nbsp;
+  <img src="./src/assets/eng/preview2.png" width="180"/>&nbsp;&nbsp;&nbsp;
+  <img src="./src/assets/eng/preview3.png" width="180"/>&nbsp;&nbsp;&nbsp;
+  <img src="./src/assets/eng/preview4.png" width="180"/>&nbsp;&nbsp;&nbsp;
+  <img src="./src/assets/eng/preview5.png" width="180"/>
+</p>
